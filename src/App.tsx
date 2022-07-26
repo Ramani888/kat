@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Sidebar from './components/Sidebar/Sidebar';
+import Main from './views/Main/Main';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Sidebar />
+      {/* <Sidebar /> */}
+      <Main />
     </div>
   );
 }
